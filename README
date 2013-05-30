@@ -1,0 +1,4 @@
+Sample Application using Struts 2.
+
+  Application has login functionality which reads the user details from a .txt file.
+  Search functionality.
