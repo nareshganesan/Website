@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+          "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    
+    <package name="default" namespace="/" extends="struts-default">
+        <!-- action name is the value followed by the context of the application in the URL -->
+        <!-- action class is the name of the class to handle the request -->
+         <action name="doLogin" class="info.myreflections.naresh.action.LoginAction">
+    	    <result name="success"> /search.jsp</result>    	    
+    	    <result name="login"> /login.jsp</result>
+    	     <result name="input"> /login.jsp</result>
+    	</action>
+    	
+         <action name="doRegister" class="info.myreflections.naresh.action.RegisterAction">
+    	    <result name="success"> /search.jsp</result>    	    
+    	    <result name="login"> /login.jsp</result>
+    	</action>
+        
+    	<!-- <action name="do*" class="info.myreflections.naresh.action.{1}Action">
+    	    <result name="success"> /search.jsp</result>    	    
+    	    <result name="error"> /login.jsp</result>
+    	</action> -->
+    	
+    	<action name="findArticles" class="info.myreflections.naresh.action.FindArticleAction">
+    	    <result name="success"> /search.jsp</result>    	    
+    	    <result name="error"> /error.jsp</result>
+    	</action>
+    	
+    	<action name="getArticle" class="info.myreflections.naresh.action.GetArticleAction">
+    	    <result name="success"> /Article.jsp</result>    	    
+    	    <result name="error"> /error.jsp</result>
+    	</action>
+    	
+    	<action name="doContact" class="info.myreflections.naresh.action.ContactFormAction">
+    	    <result name="success"> /NewFile.jsp</result>    	    
+    	    <result name="error"> /error.jsp</result>
+    	</action>
+        
+    </package>
+    
+     <package name="search" namespace="/" extends="struts-default">
+        <!-- action name is the value followed by the context of the application in the URL -->
+        <!-- action class is the name of the class to handle the request -->
+    	<action name="search*" >
+    	    <result > /search{1}.jsp</result>    	    
+    	   
+    	</action>
+        
+    </package>
+    
+    
+</struts>

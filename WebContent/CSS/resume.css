@@ -1,0 +1,48 @@
+#container {margin-left:70px;margin-right:70px;background-color:#f5f5f5;height:1400px}
+
+#header {height:120px;margin-down:5px;	}
+
+#profile-name {float:left;width:46%;height:100%;margin-left:5px;padding-left:3px;padding-right:3px}
+
+#profile-address {float:right;width:26%;height:100%;margin-left:5px;margin-right:5px;padding-left:3px;padding-right:3px;}
+
+#line-seperator {clear:both;width:99%;background-color:black;height:1px;margin-top:10px;margin-bottom:3px;margin-left:5px;margin-right:3px}
+
+#content {height:100px;margin-top:10px;margin-bottom:30px}
+
+#topic {float:left;width:20%;margin-left:5px;margin-right:5px;margin-top:5px;margin-bottom:5px;padding-left:3px;padding-right:3px}
+
+#education {height:90px;}
+
+#strengths {height:70px;}
+
+#technical-expertise {height:90px;}
+
+#professional-experience {height:590px;}
+
+#academic-projects {height:100px;}
+
+#related-content {float:left;width:55%;margin-left:2px;margin-top:5px;margin-bottom:5px;padding-left:3px;padding-right:3px}
+
+#strengths-content {height:100px}
+
+#strengths-content1 {float:left;width:32%;margin-left:2px;margin-right:5px;margin-top:5px;margin-bottom:5px;padding-left:3px;padding-right:3px}
+
+#strengths-content2 {float:left;width:32%;margin-left:2px;margin-top:5px;margin-bottom:5px;padding-left:3px;padding-right:3px}
+
+#strengths-content3 {float:right;width:30%;margin-left:5px;margin-right:5px;margin-top:5px;margin-bottom:5px;padding-left:3px;padding-right:3px}
+
+#technical-expertise-content {height:120px}
+
+#technical-expertise-content1 {float:left;width:32%;margin-left:5px;margin-right:5px;margin-top:5px;margin-bottom:5px;padding-left:3px;padding-right:3px}
+
+#technical-expertise-content2 {float:left;width:32%;margin-left:2px;margin-top:5px;margin-bottom:5px;padding-left:3px;padding-right:3px}
+
+#technical-expertise-content3 {float:right;width:30%;margin-left:5px;margin-right:5px;margin-top:5px;margin-bottom:5px;padding-left:3px;padding-right:3px}
+
+#professional-experience-content {height:600px}
+
+#timeline {float:right;width:20%;margin-left:5px;margin-right:5px;margin-top:5px;margin-bottom:5px;padding-left:3px;padding-right:3px}
+
+#footer {height:100px;margin-top:20px;width:1024px}
+
